@@ -14,7 +14,7 @@ node {
 		echo 'Compile pass'
 	}
 	stage('package'){
-		echo 'package pass'
+		 'package pass'
 	}
 	stage('Ansible Deploy'){
 		echo "Deploying the Project.........."
