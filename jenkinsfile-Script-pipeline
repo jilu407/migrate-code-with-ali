@@ -1,0 +1,22 @@
+node {
+	stage('Checkout code') {
+         git url: 'https://github.com/jilu407/jenkins-script-pipeline.git'
+           
+    }
+	stage('Build'){
+		echo "build pass"
+		
+	}
+	stage('test'){
+		echo 'test pass'
+	}
+	stage('Compile'){
+		echo 'Compile pass'
+	}
+	stage('package'){
+		echo 'package pass'
+	}
+	stage('Ansible Deploy'){
+		echo "Deploying the Project.........."
+	}
+}
